@@ -69,6 +69,7 @@ export type {
   WordDefinition,
   /** @deprecated Use WordDefinition instead */
   WordDefinition as WordDefinitions,
+  GameDefinition as GameDefinitions,
 } from './definitions';
 export { FakerError } from './errors/faker-error';
 export { Faker } from './faker';
@@ -95,6 +96,7 @@ export type {
   StringColorFormat,
 } from './modules/color';
 export type { CommerceModule } from './modules/commerce';
+export type {GameModule} from './modules/game';
 export type { CompanyModule } from './modules/company';
 export type { DatabaseModule } from './modules/database';
 export type { DatatypeModule } from './modules/datatype';

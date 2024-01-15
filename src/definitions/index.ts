@@ -22,3 +22,4 @@ export type { ScienceDefinition } from './science';
 export type { SystemDefinition, SystemMimeTypeEntryDefinition } from './system';
 export type { VehicleDefinition } from './vehicle';
 export type { WordDefinition } from './word';
+export type { GameDefinition } from './game';

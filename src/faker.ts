@@ -31,6 +31,7 @@ import { WordModule } from './modules/word';
 import type { Randomizer } from './randomizer';
 import { SimpleFaker } from './simple-faker';
 import { mergeLocales } from './utils/merge-locales';
+import { GameModule } from './modules/game';
 
 /**
  * This is Faker's main class containing all modules that can be used to generate data.
@@ -89,6 +90,7 @@ export class Faker extends SimpleFaker {
   readonly system: SystemModule = new SystemModule(this);
   readonly vehicle: VehicleModule = new VehicleModule(this);
   readonly word: WordModule = new WordModule(this);
+  readonly game: GameModule = new GameModule(this);
 
   // Aliases
   /** @deprecated Use {@link Faker#location} instead */

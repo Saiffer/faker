@@ -18,6 +18,7 @@ import type { ScienceDefinition } from './science';
 import type { SystemDefinition } from './system';
 import type { VehicleDefinition } from './vehicle';
 import type { WordDefinition } from './word';
+import type { GameDefinition } from './game';
 
 /**
  * Wrapper type for all definition categories that will make all properties optional and allow extra properties.
@@ -50,4 +51,5 @@ export type LocaleDefinition = {
   system?: SystemDefinition;
   vehicle?: VehicleDefinition;
   word?: WordDefinition;
+  game?: GameDefinition;
 } & Record<string, Record<string, unknown>>;
