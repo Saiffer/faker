@@ -16,7 +16,7 @@ DatabaseDefinition as DatabaseDefinitions, DateDefinition,
 /** @deprecated Use DateDefinition instead */
 DateDefinition as DateDefinitions, DateEntryDefinition, FinanceDefinition, 
 /** @deprecated Use FinanceDefinition instead */
-FinanceDefinition as FinanceDefinitions, HackerDefinition, 
+FinanceDefinition as FinanceDefinitions, GameDefinition as GameDefinitions, HackerDefinition, 
 /** @deprecated Use HackerDefinition instead */
 HackerDefinition as HackerDefinitions, InternetDefinition, 
 /** @deprecated Use InternetDefinition instead */
@@ -42,7 +42,7 @@ SystemMimeTypeEntryDefinition as SystemMimeTypeEntryDefinitions, VehicleDefiniti
 /** @deprecated Use VehicleDefinition instead */
 VehicleDefinition as VehicleDefinitions, WordDefinition, 
 /** @deprecated Use WordDefinition instead */
-WordDefinition as WordDefinitions, GameDefinition as GameDefinitions, } from './definitions';
+WordDefinition as WordDefinitions, } from './definitions';
 export { FakerError } from './errors/faker-error';
 export { Faker } from './faker';
 export type { FakerOptions } from './faker';
@@ -60,12 +60,12 @@ CssFunctionType as CSSFunction, CssFunctionType,
 /** @deprecated Use CssSpaceType instead */
 CssSpaceType as CSSSpace, CssSpaceType, NumberColorFormat, StringColorFormat, } from './modules/color';
 export type { CommerceModule } from './modules/commerce';
-export type { GameModule } from './modules/game';
 export type { CompanyModule } from './modules/company';
 export type { DatabaseModule } from './modules/database';
 export type { DatatypeModule } from './modules/datatype';
 export type { DateModule, SimpleDateModule } from './modules/date';
 export type { Currency, FinanceModule } from './modules/finance';
+export type { GameModule } from './modules/game';
 export type { GitModule } from './modules/git';
 export type { HackerModule } from './modules/hacker';
 export type { HelpersModule, SimpleHelpersModule } from './modules/helpers';

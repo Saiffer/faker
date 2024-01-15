@@ -1,4 +1,4 @@
-import { ModuleBase } from "../../internal/module-base";
+import { ModuleBase } from '../../internal/module-base';
 export interface Game {
     readonly game: string;
     readonly genre: string;

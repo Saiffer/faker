@@ -6,6 +6,7 @@ import type { CompanyDefinition } from './company';
 import type { DatabaseDefinition } from './database';
 import type { DateDefinition } from './date';
 import type { FinanceDefinition } from './finance';
+import type { GameDefinition } from './game';
 import type { HackerDefinition } from './hacker';
 import type { InternetDefinition } from './internet';
 import type { LocationDefinition } from './location';
@@ -18,7 +19,6 @@ import type { ScienceDefinition } from './science';
 import type { SystemDefinition } from './system';
 import type { VehicleDefinition } from './vehicle';
 import type { WordDefinition } from './word';
-import type { GameDefinition } from './game';
 
 /**
  * Wrapper type for all definition categories that will make all properties optional and allow extra properties.

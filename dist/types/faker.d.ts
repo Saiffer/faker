@@ -8,6 +8,7 @@ import { CompanyModule } from './modules/company';
 import { DatabaseModule } from './modules/database';
 import { DateModule } from './modules/date';
 import { FinanceModule } from './modules/finance';
+import { GameModule } from './modules/game';
 import { GitModule } from './modules/git';
 import { HackerModule } from './modules/hacker';
 import { HelpersModule } from './modules/helpers';
@@ -27,7 +28,6 @@ import { VehicleModule } from './modules/vehicle';
 import { WordModule } from './modules/word';
 import type { Randomizer } from './randomizer';
 import { SimpleFaker } from './simple-faker';
-import { GameModule } from './modules/game';
 /**
  * This is Faker's main class containing all modules that can be used to generate data.
  *

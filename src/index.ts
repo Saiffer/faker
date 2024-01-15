@@ -27,6 +27,7 @@ export type {
   FinanceDefinition,
   /** @deprecated Use FinanceDefinition instead */
   FinanceDefinition as FinanceDefinitions,
+  GameDefinition as GameDefinitions,
   HackerDefinition,
   /** @deprecated Use HackerDefinition instead */
   HackerDefinition as HackerDefinitions,
@@ -69,7 +70,6 @@ export type {
   WordDefinition,
   /** @deprecated Use WordDefinition instead */
   WordDefinition as WordDefinitions,
-  GameDefinition as GameDefinitions,
 } from './definitions';
 export { FakerError } from './errors/faker-error';
 export { Faker } from './faker';
@@ -96,12 +96,12 @@ export type {
   StringColorFormat,
 } from './modules/color';
 export type { CommerceModule } from './modules/commerce';
-export type {GameModule} from './modules/game';
 export type { CompanyModule } from './modules/company';
 export type { DatabaseModule } from './modules/database';
 export type { DatatypeModule } from './modules/datatype';
 export type { DateModule, SimpleDateModule } from './modules/date';
 export type { Currency, FinanceModule } from './modules/finance';
+export type { GameModule } from './modules/game';
 export type { GitModule } from './modules/git';
 export type { HackerModule } from './modules/hacker';
 export type { HelpersModule, SimpleHelpersModule } from './modules/helpers';
