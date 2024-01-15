@@ -70,7 +70,7 @@ In this example there are 5 locales. Each of these is checked in order, and the 
 
 <!-- LOCALES-AUTO-GENERATED-START -->
 
-<!-- Run 'pnpm run generate:locales' to update. -->
+<!-- Run 'npm run generate:locales' to update. -->
 
 | Locale        | Name                      | Faker              |
 | :------------ | :------------------------ | :----------------- |
