@@ -1,15 +1,3 @@
-declare const game: {
-    company: {
-        gameCompany: string;
-    }[];
-    game: {
-        gameName: string;
-    }[];
-    genre: {
-        gameGenre: string;
-    }[];
-    rating: {
-        gameRating: string;
-    }[];
-};
+import type { GameDefinition } from '../../..';
+declare const game: GameDefinition;
 export default game;

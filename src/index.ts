@@ -27,7 +27,7 @@ export type {
   FinanceDefinition,
   /** @deprecated Use FinanceDefinition instead */
   FinanceDefinition as FinanceDefinitions,
-  GameDefinition as GameDefinitions,
+  GameDefinition,
   HackerDefinition,
   /** @deprecated Use HackerDefinition instead */
   HackerDefinition as HackerDefinitions,

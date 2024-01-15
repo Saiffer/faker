@@ -75,6 +75,7 @@ const definitionsTypes: DefinitionType = {
   system: 'SystemDefinition',
   vehicle: 'VehicleDefinition',
   word: 'WordDefinition',
+  game: 'GameDefinition'
 };
 
 const scriptCommand = 'pnpm run generate:locales';

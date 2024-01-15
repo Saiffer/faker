@@ -1,1 +1,1 @@
-import{b as a}from"../chunk-NEY5EE6A.mjs";import"../chunk-A777NDG4.mjs";import"../chunk-GQNCGQAP.mjs";export{a as faker};
+import{b as a}from"../chunk-2JD3WEA2.mjs";import"../chunk-BTIK2TPY.mjs";import"../chunk-GQNCGQAP.mjs";export{a as faker};

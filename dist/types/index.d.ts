@@ -16,7 +16,7 @@ DatabaseDefinition as DatabaseDefinitions, DateDefinition,
 /** @deprecated Use DateDefinition instead */
 DateDefinition as DateDefinitions, DateEntryDefinition, FinanceDefinition, 
 /** @deprecated Use FinanceDefinition instead */
-FinanceDefinition as FinanceDefinitions, GameDefinition as GameDefinitions, HackerDefinition, 
+FinanceDefinition as FinanceDefinitions, GameDefinition, HackerDefinition, 
 /** @deprecated Use HackerDefinition instead */
 HackerDefinition as HackerDefinitions, InternetDefinition, 
 /** @deprecated Use InternetDefinition instead */
